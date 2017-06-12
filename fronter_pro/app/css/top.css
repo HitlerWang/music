@@ -1,0 +1,40 @@
+#top{
+}
+#home{
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+#home:hover{
+    color: #e0e0e0;
+}
+#right_login{
+    color: #333;
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    right: 70px;
+    font-size: 15px;
+}
+#right_login:hover{
+    color: #e0e0e0;
+}
+#login{
+    color: #333;
+    position: absolute;
+    top: 0px;
+    right: 90px;
+
+}
+#login:hover{
+    color: #e0e0e0;
+}
+#setting{
+    color: #333;
+}
+#setting:hover{
+    color: #e0e0e0;
+}

@@ -1,0 +1,57 @@
+#music_list{
+    position: absolute;
+    margin-top: 90px;
+    left: 52px;
+}
+.line_div{
+    padding-top: 10px;
+    height: 60px;
+}
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    /*display: inline;*/
+    /*margin-right: 40px;*/
+
+}
+.checkbox{
+    background-color: #d5d5d5;
+    width:772px;
+    height: 1px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.real_checkbox{
+    border: 1px solid;
+    /*display: none;*/
+    /*border-radius: 1px;*/
+
+}
+.line{
+    clear: both;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /*padding-left: 0px;*/
+}
+.right_box{
+    width: 50px;
+}
+.music_name{
+    width: 415px;
+    text-align: left;
+
+}
+.person{
+    width: 200px;
+    text-align: left;
+
+}
+.run_time{
+    width: 40px;
+    text-align: left;
+
+}

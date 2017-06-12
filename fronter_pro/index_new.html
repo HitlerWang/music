@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<link rel="stylesheet" href="./app/css/photo.css">-->
+    <title>滚动视觉差示例</title>
+</head>
+<p>sdfsdfsd</p>
+<style>
+    p:after{
+        content: 'xiaofeng';
+        background-image: url("back.jpeg");
+    }
+</style>
+<img id="real_photo" src='./app/img/T002R300x300M000003YUWkT2uQsBR.jpg'/>
+<style>
+    img{
+        min-height: 50px;
+        position: relative;
+    }
+    img:before{
+        content: " ";
+        display: block;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        height: calc(100% + 10px);
+        width: 100%;
+        backgound-color: rgb(230, 230,230);
+        border: 2px dotted rgb(200,200,200);
+        border-radius: 5px;
+    }
+    img{
+        content: " Broken Image of ";
+        display: block;
+        font-size: 16px;
+        font-style: normal;
+        font-family: FontAwesome;
+        color: rgb(100,100,100);
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    /*img{*/
+        /*display: block;*/
+    /*}*/
+    /*img:after{*/
+        /*content: 'xiaofeng';*/
+        /*background-image: url("back.jpeg");*/
+    /*}*/
+</style>
+</body>
+</html>

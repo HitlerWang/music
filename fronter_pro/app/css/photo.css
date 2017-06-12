@@ -1,0 +1,54 @@
+#photo{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    right: 100px;
+    top: 0px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/*.photo_top{*/
+    /*height: 300px;*/
+    /*width: 300px;*/
+/*}*/
+/*.photo_img{*/
+    /*height: 200px;*/
+    /*width: 201px;*/
+/*}*/
+#real_photo{
+    display: block;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    transform: scale(0.6);
+}
+.photo_img:after{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    position: absolute;
+    left: 63px;
+    top: 56px;
+    display: block;
+    content: '';
+    background-image: url("../../app/img/album_cover_player.png");
+    height: 180px;
+    width: 201px;
+}
+.song_name_div{
+    position: relative;
+    top: -45px;
+    color: #333;
+}
+.song_person_div{
+     /*line-height: 30px;*/
+     position: relative;
+     top: -40px;
+    color: #333;
+ }
+.song_zhuanji_div{
+    /*line-height: 30px;*/
+    position: relative;
+    top: -35px;
+    color: #333;
+}

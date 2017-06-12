@@ -1,0 +1,115 @@
+#bottom_play{
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    width: 1200px;
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*vertical-align: middle;*/
+    /*display: inline-block;*/
+}
+#bottom_left{
+    /*position: absolute;*/
+    /*left: 50px;*/
+    /*bottom: 60px;*/
+    width: 700px;
+    height: 50px;
+    /*margin-top: 0px;*/
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+.last_song{
+    position: absolute;
+    left: 0px;
+    background-image: url("../../app/img/player@2x.png");
+    display: inline-block;
+    background-position: -0px -60px;
+    height: 40px;
+    width: 40px;
+    transform: scale(0.5);
+    /*padding-right: 40px;*/
+}
+.play{
+    position: absolute;
+    background-image: url("../../app/img/player@2x.png");
+    display: inline-block;
+    background-position: -0px -0px;
+    height: 60px;
+    width: 60px;
+    transform: scale(0.5);
+    top: -10px;
+    left: 76px;
+}
+.next_song{
+    position: absolute;
+    background-image: url("../../app/img/player@2x.png");
+    display: inline-block;
+    background-position: -0px -105px;
+    height: 40px;
+    width: 40px;
+    left: 150px;
+    transform: scale(0.5);
+    /*padding-right: 40px;*/
+}
+.run_scol{
+    position: absolute;
+    /*top: -2px;*/
+    left: 200px;
+    display: inline-block;
+    width: 480px;
+    height: 50px;
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.play_person_top{
+    /*padding-top: 14px;*/
+    white-space: nowrap;
+    height: 30px;
+    width: 460px;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 21px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /*padding-bottom: 10px;*/
+}
+.now_person,.now_name{
+    text-decoration-style: solid;
+    font-size: 14px;
+    display: inline;
+    text-decoration-line: none;
+    /*height: 20px;*/
+    /*width: 30px;*/
+}
+.play_time{
+    display: inline-block;
+    height: 19px;
+    width: 360px;
+    text-align: right;
+}
+.play_scol{
+    /*margin-top: 10px;*/
+    background-attachment: scroll;
+    background-clip: border-box;
+    height: 2px;
+    background-color: #1b6d85;
+    width: 460px;
+}
+.dot{
+    position: absolute;
+    top: 20px;
+    display: block;
+    background-image: url("../../app/img/player@2x.png");
+    background-position: -0px -340px;
+    height: 20px;
+    width: 20px;
+    transform: scale(0.5);
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #e0e0e0;
+}

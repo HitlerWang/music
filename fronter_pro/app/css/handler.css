@@ -1,0 +1,74 @@
+#handler{
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    height: 40px;
+    width: 700px;
+    font-size: 14px;
+
+}
+.collection,.add,.download,.clear,.remove{
+    display: inline-block;
+    border-radius: 3px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    margin-left: 4px;
+    text-align: center;
+}
+.collection_icon,.add_icon,.clear_icon,.remove_icon,.download_icon{
+    padding-left: 1px;
+    vertical-align:middle;
+}
+.collection_icon{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -120px -0px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
+.add_icon{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -40px -0px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
+.download_icon{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -80px -440px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
+.remove_icon{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -200px -0px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
+.clear_icon{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -82px -602px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
+/*#img_con{*/
+    /*position:absolute;*/
+    /*clip:rect(20px 100px 50px 20px);*/
+/*}*/
+#div_test{
+    background-image: url("../../app/img/icon_sprite@2x.png");
+    background-position: -120px -0px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    transform: scale(0.5);
+}
